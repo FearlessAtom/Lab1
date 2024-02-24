@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Лабораторна робота №1. Завдання 1" Height="184" Width="460" Background="Black" WindowStartupLocation="CenterScreen" MaxWidth="700" MinHeight="190" MinWidth="400" MaxHeight="300" ResizeMode="NoResize">
+    <Grid Background="#FFE1EBB6" Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Calculate" Margin="46,87,274,0" Click="Button_Click" FontSize="14" FontFamily="Arial" Background="#FF72759D" Height="20" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" TextWrapping="Wrap" Margin="46,12,274,0" Height="20" VerticalAlignment="Top" FontSize="14" FontFamily="Arial" TextChanged="textBox1_TextChanged"/>
+        <TextBox x:Name="textBox2" TextWrapping="Wrap" Margin="46,37,274,0" FontFamily="Arial" FontSize="14" Height="20" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" TextChanged="textBox2_TextChanged"/>
+        <TextBox x:Name="textBox3" TextWrapping="Wrap" Text="&#xD;&#xA;" Margin="46,62,274,0" TextChanged="textBox3_TextChanged" FontFamily="Arial" FontSize="14" Height="20" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox4" TextWrapping="Wrap" Margin="46,112,274,0" TextChanged="TextBox_TextChanged" IsReadOnly="True" FontFamily="Arial" FontSize="14" Height="20" VerticalAlignment="Top"/>
+        <Label Content="x = &#xD;&#xA;" Margin="10,10,0,0" FontFamily="Arial" FontSize="14" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="36"/>
+        <Label Content="y =" Margin="10,33,0,0" FontFamily="Arial" FontSize="14" RenderTransformOrigin="0.523,0.694" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="36"/>
+        <Label Content="z =" Margin="10,62,0,0" FontFamily="Arial" FontSize="14" RenderTransformOrigin="0.523,0.694" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="36"/>
+        <Label Content="r =" Margin="10,107,0,0" FontFamily="Arial" FontSize="14" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="36" Height="30" VerticalAlignment="Top"/>
+        <Label Content="Семенчук О. А. ІПЗ 23-1" Margin="0,0,-3,41" FontFamily="Arial" FontSize="14" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="193"/>
+
+    </Grid>
+</Window>
